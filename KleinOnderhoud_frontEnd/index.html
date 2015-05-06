@@ -20,6 +20,12 @@
             $("#content2").show();
         }
 
+        function ToonContent3()
+        {
+            $("#content2").hide();
+            $("#content3").show();
+        }
+
     </script>
 </head>
 <body>
@@ -39,7 +45,7 @@
             type:<input type="text" id="type" /><br />
             aantal km:<input type="text" id="km" /><br />
 
-            <button>volgende</button>
+            <button onclick="ToonContent3()">volgende</button>
 
         </div>
         <div id="content3">
