@@ -7,6 +7,7 @@ namespace KleinOnderhoudApi.Models
 {
     public class Wagen
     {
+        public int Id { get; set; }
         public string Merk { get; set; }
         public string Nummerplaat { get; set; }
         public string Bouwjaar { get; set; }
