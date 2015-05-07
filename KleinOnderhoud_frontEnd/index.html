@@ -54,7 +54,7 @@
         function Verzenden() {
             $.ajax({
                 type : "POST",
-                url : "api/klant",
+                url: "api/Klant",
                 data : JSON.stringify({
                     naam: $("input#naam").val()
                 }),
@@ -67,7 +67,7 @@
 
             $.ajax({
                 type: "POST",
-                url: "api/wagen",
+                url: "/api/wagen",
                 data: JSON.stringify({
                     merk: $("input#merk").val(),
                     nummerplaat: $("input#nummerplaat").val(),
@@ -83,7 +83,7 @@
 
             $.ajax({
                 type: "POST",
-                url: "api/wagen",
+                url: "/api/wagen",
                 data: JSON.stringify({
                     merk: $("input#merk").val(),
                     nummerplaat: $("input#nummerplaat").val(),
