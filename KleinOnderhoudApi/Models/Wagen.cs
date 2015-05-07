@@ -10,7 +10,7 @@ namespace KleinOnderhoudApi.Models
         public int Id { get; set; }
         public string Merk { get; set; }
         public string Nummerplaat { get; set; }
-        public string Bouwjaar { get; set; }
+        public int Km { get; set; }
         public string Type { get; set; }
     }
 }
